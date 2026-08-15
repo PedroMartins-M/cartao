@@ -16,6 +16,17 @@
 
 body{
 
+     margin: 0;
+    min-height: 100vh;
+
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: #22181C;
+
     font-family:Inter,sans-serif;
 
     min-height:100vh;
@@ -28,11 +39,32 @@ body{
 
     padding:120px 20px 40px;
 
-    background:
-    radial-gradient(circle at top,
-    #5A0001,
-    #22181C 70%);
 
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: rgba(246, 232, 234, 0.15);
+
+    pointer-events: none;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
 }
 
 /* CARD */
