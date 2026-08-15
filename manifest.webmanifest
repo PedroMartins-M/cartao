@@ -1,0 +1,32 @@
+{
+    "name": "cartao",
+    "short_name": "card",
+    "start_url": ".",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "Pagina de Olá Mundo",
+    "lang": "pt-BR",
+    "icons":[
+        {
+        "src": "imagens/icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+        },
+         {
+        "src": "imagens/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+        },
+         {
+        "src": "imagens/icon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+        },
+        {
+        "src": "imagens/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        }
+    ]
+}
